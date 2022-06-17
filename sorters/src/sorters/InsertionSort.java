@@ -5,6 +5,8 @@ public class InsertionSort {
 	public static void insertionSort(int[] numbers) {
 		
 		System.out.println("Test");
+		System.out.println("Test");
+		
 		
 		for (int i = 0; i < numbers.length; i++) {
 			
@@ -22,3 +24,4 @@ public class InsertionSort {
 	}
 
 }
+	
