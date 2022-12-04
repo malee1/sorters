@@ -24,11 +24,11 @@ public class Index {
 		LocalTime startTime = LocalTime.now();
 		
 		// call sorting methods
-//		QuickSort.quicksort(numbers, 0, numbers.length - 1);
+		QuickSort.quicksort(numbers, 0, numbers.length - 1);
 //		InsertionSort.insertionSort(numbers);
 //		BubbleSort.bubbleSort(numbers);
 //		BubbleSort.bubbleSort2(numbers);
-		MergeSort.mergeSort(numbers);
+//		MergeSort.mergeSort(numbers);
 		
 		// mark time and calc duration after sort
 		LocalTime endTime = LocalTime.now();
